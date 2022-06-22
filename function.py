@@ -16,7 +16,8 @@ def check_empty(grid):
 def BestMove(gird, isMax, depth):
     board = gird.copy()
     best_move = [-1, -1]
-    best_value = isMax and -9999 or 9999
+    best_value = isMax and -99999 or 99999
+   
     moves = get_top_moves(board, 10, isMax)
 
     test = list(map(lambda x: x[0], moves))
