@@ -192,7 +192,7 @@ if __name__ == "__main__":
         if(not playFirst and check_empty(grid)):
             grid[5][5] = "O"
         drawDone = True
-        clock.tick(60)
+        clock.tick(30)
         pygame.display.flip()
 
     pygame.quit()
