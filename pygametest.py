@@ -26,7 +26,7 @@ if __name__ == "__main__":
     MARGIN = 1
     DEPTH = 2
 
-    grid = np.full((12, 12), ".")
+    grid = np.full((15, 15), ".")
 
     pygame.init()
 
